@@ -70,3 +70,28 @@ footer{
     
 
     }
+
+.card * {
+    background-color: #0ecef6;
+    padding: 0;
+    display: inline-block;
+    border: none;
+
+
+    }
+
+    .card-header * {
+    background-color: #0ecef6;
+    padding-inline: 15px;
+    display: inline-block;
+
+
+    }
+
+.card1 {
+    background-color: black;
+}
+
+.list-group-item {
+    background-color: black;
+}
