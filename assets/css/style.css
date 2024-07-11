@@ -24,15 +24,22 @@
 
 
 .formulario{
-    padding: 100px;
+    
+    background-color: black;
 
 }
 
-
-.enviar {
-    background-color: #17A2B8;
-    text-align: end;
+.form{
+    padding: 5px;
 }
+
+.btn-info {
+    background-color: #0ecef6; /* Color de fondo personalizado */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+
+    }
+
 
 .quienessomos{
 
@@ -43,7 +50,7 @@
 
 footer{
 
-    background-color: #0F0F0F;
+    background-color: #0ecef6;
     padding:10px
 
 }
@@ -57,9 +64,9 @@ footer{
 
 .navbar {
     
-    z-index: 1000; /* Asegura que el navbar esté sobre otros elementos */
+    z-index: 1000; 
     background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
-    opacity: 1; /* Ajusta la opacidad según prefieras */
-    transition: background-color 0.5s, opacity 0.5s; 
+    opacity: 1; 
+    
 
     }
