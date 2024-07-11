@@ -5,17 +5,19 @@
     
 .hero {
 
-    background-image: url("../img/bg-hero.jpg");
+    background-image: url("../img/a43422a6698359a74c82beb5b5e468d0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    height: 100vh;
+
 
 }
 
 
-.trabajo{
+.destacados{
 
-    background-color:#17A2b8;
+    background-color:black;
     padding: 100px;
     
 }
@@ -32,9 +34,10 @@
     text-align: end;
 }
 
-.acerca-de-mi{
+.quienessomos{
 
     padding:100px;
+    background-color: black;
 
 }
 
@@ -51,3 +54,12 @@ footer{
     object-fit: cover; 
 
 }
+
+.navbar {
+    
+    z-index: 1000; /* Asegura que el navbar esté sobre otros elementos */
+    background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
+    opacity: 1; /* Ajusta la opacidad según prefieras */
+    transition: background-color 0.5s, opacity 0.5s; 
+
+    }
