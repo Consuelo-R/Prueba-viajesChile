@@ -90,7 +90,10 @@ footer{
 
     }
 
-.list-group-item * {
-    background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
-    opacity: 1; 
+
+
+.text-bg-dark * {
+    background-color: rgba(255, 255, 255, 0);/* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 10px; /* Espaciado interior para separar el texto del borde */
 }
