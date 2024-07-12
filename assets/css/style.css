@@ -2,16 +2,18 @@
 *{
     font-family: "Raleway", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
     
 .hero {
-
-    background-image: url("../img/a43422a6698359a74c82beb5b5e468d0.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
     height: 100vh;
+}
 
-
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
 }
 
 
