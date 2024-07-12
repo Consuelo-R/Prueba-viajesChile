@@ -24,3 +24,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+$(document).ready(function(){
+    $('[data-bs-toggle="tooltip"]').tooltip();
+
+
+    $("#btnEnviar").click(function(){
+        alert("El mensaje fue enviado correctamente...");
+    });
+});
